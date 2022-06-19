@@ -2,7 +2,7 @@
   "name": "bbkas/consul",
   "description": "Consul API wrapper",
   "type": "library",
-  "license": "MIT License",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Bbkas\\Consul\\": "src/"
@@ -15,5 +15,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {}
+  "require": {
+    "ext-http": "*",
+    "php": ">=7.4",
+    "psr/http-client": "^1.0"
+  }
 }

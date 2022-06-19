@@ -6,5 +6,10 @@ namespace Bbkas\Consul;
 
 class ConsulServices
 {
+    private Consul $consul;
 
+    public function __construct(Consul $consul)
+    {
+        $this->consul = $consul;
+    }
 }
