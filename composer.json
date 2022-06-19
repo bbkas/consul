@@ -1,0 +1,19 @@
+{
+  "name": "bbkas/consul",
+  "description": "Consul API wrapper",
+  "type": "library",
+  "license": "MIT License",
+  "autoload": {
+    "psr-4": {
+      "Bbkas\\Consul\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Buba Kastorsky",
+      "email": "48946270+bbkas@users.noreply.github.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
